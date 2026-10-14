@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【公式】宝石・貴金属の高価買取窓口</title>
+    <!-- CSSファイルを読み込む設定 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header>
+        <h2>LUCEO</h2>
+    </header>
+
+    <!-- メインビジュアルエリア（宣伝） -->
+    <section class="hero">
+        <h1>タンスに眠る宝石・貴金属<br>プロが正しく査定します</h1>
+        <p>「これ、本物？」から「いくらになる？」まで<br>スマホの写真だけで無料査定！</p>
+    </section>
+
+    <div class="container">
+        <!-- 案内カード：選ばれる理由 -->
+        <div class="card">
+            <h2>当店の3つの安心</h2>
+            <div class="list-item">✨ <strong>完全無料査定：</strong> 費用は一切かかりません。</div>
+            <div class="list-item">✨ <strong>スピード回答：</strong> LINEでお写真を送るだけ。</div>
+            <div class="list-item">✨ <strong>秘密厳守：</strong> 個人情報は厳重に管理いたします。</div>
+        </div>
+
+        <!-- 案内カード：買取対象 -->
+        <div class="card">
+            <h2>主な買取・査定対象</h2>
+            <p>ダイヤモンド / 金・プラチナ / ブランド時計 / ちぎれたネックレス / 遺品整理のお品物など</p>
+        </div>
+<!-- index.html の追記場所（イメージ） -->
+        <!-- 案内カード：買取対象 -->
+        <div class="card">
+            <h2>主な買取・査定対象</h2>
+            <p>ダイヤモンド / 金・プラチナ / ブランド時計 / ちぎれたネックレス / 遺品整理のお品物など</p>
+        </div>
+
+        <!-- ★ここから：ガチャガチャエリアを追加★ -->
+        <div class="card gacha-section">
+            <h2>💎 オンライン宝石ガチャ</h2>
+            <p class="gacha-lead">コースを選んでガチャを回そう！小さな宝石が2つ当たります✨</p>
+            
+            <!-- 金額選択ボタン -->
+            <div class="gacha-modes">
+                <button class="mode-btn active" data-cost="2000">2,000円コース</button>
+                <button class="mode-btn" data-cost="3000">3,000円コース</button>
+                <button class="mode-btn" data-cost="5000">5,000円コース</button>
+            </div>
+
+            <!-- ガチャガチャ本体のグラフィック -->
+            <div class="gacha-machine">
+                <div class="gacha-dome">
+                    <!-- ドーム内を跳ねるカプセル（JSで動かします） -->
+                    <div class="capsule-container">
+                        <div class="mini-capsule cap1"></div>
+                        <div class="mini-capsule cap2"></div>
+                        <div class="mini-capsule cap3"></div>
+                        <div class="mini-capsule cap4"></div>
+                    </div>
+                </div>
+                <div class="gacha-body">
+                    <button id="gacha-handle" class="gacha-handle">🌀 回す</button>
+                    <div class="gacha-exit"></div>
+                </div>
+            </div>
+
+            <!-- 景品（カプセル）出現エリア -->
+            <div id="gacha-result-area" class="gacha-result-area"></div>
+        </div>
+        <!-- ★ここまで：ガチャガチャエリア★ -->
+
+        <!-- アクションエリア（やり取り導線） -->
+        <div class="card card-cta">
+        <!-- アクションエリア（やり取り導線） -->
+        <div class="card card-cta">
+            <h2>今すぐ無料査定・ご相談</h2>
+            <p class="cta-lead">ご都合の良い方法をお選びください</p>
+            
+            <!-- LINE連携ボタン（★URLを入れる） -->
+            <a href="https://line.me" class="btn btn-line" target="_blank">
+                💬 LINEでかんたん写真査定
+            </a>
+            
+            <!-- 電話ボタン（★電話番号を入れる） -->
+            <a href="tel:0000000000" class="btn btn-tel">
+                📞 お電話で相談する
+            </a>
+        </div>
+    </div>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <p>&copy; 2026 【サービス名】. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScriptファイルを読み込む設定 -->
+    <script src="script.js"></script>
+</body>
+</html>
